@@ -2,7 +2,7 @@
 
 實際搭建並驗證 GCP [VPC Hybrid Subnets](https://cloud.google.com/vpc/docs/hybrid-subnets) 功能的完整紀錄：同一個內部 IP，工作負載從「地端」搬到雲端後，用戶端完全不用改任何設定就能無縫接上新的機器。
 
-> 還沒有 pfSense 環境？可以先參考姊妹 repo [`pfsense-on-gcp`](https://github.com/terensy/pfsense-on-gcp) 把地端閘道部署起來，再回來做這邊的 Hybrid Subnets 測試。
+> 還沒有 pfSense 環境？可以先參考 [`pfsense-on-gcp`](https://github.com/terensy/pfsense-on-gcp) 這個 repo 把地端閘道部署起來，再回來做這邊的 Hybrid Subnets 測試。
 
 ## 這個功能在解決什麼問題
 
